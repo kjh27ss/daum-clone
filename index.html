@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daumcafeme</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container nav-top">
+            <div class="row justify-content-between">
+                <div class="small-logo"><a href="#"></a></div>
+                <div class="top-right-nav">
+                    <button type="button" class="btn-login d-inline-block">로그인</button>
+                    <a href="#" class="small-email d-inline-block"></a>
+                    <div class="small-list d-inline-block">
+                        <div class="small-navbox">
+                            <!-- 말풍선 백그라운드 표시 -->
+                            <div class="malpoongsun"></div>
+                            <!-- 보더가 1인 외곽선 박스 -->
+                                <div class="small-in-navbox">
+
+                                    <!-- 상단 아이콘 그룹 가로세로 36 -->
+                                    <div class="small-top-icon">
+                                        <div class="d-flex">
+                                            <div class="col-3">
+                                                <a href="#"><img src="images/ic_cafe.png" alt="cafe"></a>
+                                                <p class="text-center"><a href="#">카페</a></p>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="#"><img src="images/ic_news.png" alt="news"></a>
+                                                <p class="text-center"><a href="#">뉴스</a></p>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="#"><img src="images/ic_map.png" alt="map"></a>
+                                                <p class="text-center"><a href="#">지도</a></p>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="#"><img src="images/ic_shopping.png" alt="shopping"></a>
+                                                <p class="text-center"><a href="#">쇼핑</a></p>
+                                            </div>
+                                        </div>
+                                    </div>  <!--/small-top-icon-->   
+                                    <ul class="small-top-list d-flex">
+                                        <li>
+                                            <a href="#">블로그</a>
+                                            <a href="#">티스토리</a>
+                                            <a href="#">카카오TV</a>
+                                            <a href="#">브런치</a>
+                                            <a href="#">게임</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">스포츠</a>
+                                            <a href="#">연예</a>
+                                            <a href="#">영화</a>
+                                            <a href="#">웹툰</a>
+                                            <a href="#">멜론</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">어학사전</a>
+                                            <a href="#">번역</a>
+                                            <a href="#">단어장</a>
+                                            <a href="#">맞춤법검사</a>
+                                            <a href="#">백과사전</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">금융</a>
+                                            <a href="#">부동산</a>
+                                            <a href="#">자동차</a>
+                                            <a href="#">메이커스</a>
+                                            <a href="#">같이가치</a>
+                                        </li>
+                                    </ul> 
+                                   <!-- 전체보기 -->
+                                   <div class="top-right-all text-center">
+                                    <a href="#">전체보기</a>
+                                   </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /nav-top-->
+    
+        <div class="gnb-bar container">
+            
+                <a href="#" class="logo">Cafe</a>
+                <ul class="gnb">
+                    <li><a href="#" class="">홈</a></li>
+                    <li class="table-icon"><a href="#">테이블</a></li>
+                    <li><a href="#">팬카페</a></li>
+                    <li><a href="#">카페랭킹</a></li>
+                    <li><a href="#">내카페</a></li>
+                </ul>
+                <form name="search" id="search" class="search" method="get">
+                    <div class="search-select">
+                        <span>전체검색</span>
+                        <i class="fa-solid fa-angle-down"></i>
+                        <ul class="select-value">
+                            <li class="">전체검색</li>
+                            <li>통합검색</li>
+                            <li>카페검색</li>
+                            <li>테이블검색</li>
+                        </ul>
+                    </div>
+                    <input type="text" class="search-form" placeholder="검색어를 입력하세요">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            
+        </div>
+    </header>
+    <section class="slider" id="main01">
+        <div class="container">
+            <!-- loop -->
+            <div class="row flex-direction-column slide-row zindex">
+               
+                <h2><span>이야기 하나</span>아직도 풀지 못한 고대 문명의 흔적</h2>
+                <ul class="slider-list">
+                    <li class="active animate__fadeInUp">
+                        <a href="#">
+                            <span>철이없었던 마야문명의 건축물</span>
+                            <span class="sub">* 여성시대 * 차분한 20대들의 알흠다운 공간</span>
+                        </a>
+                    </li>
+                    <li class="animate__fadeInUp">
+                        <a href="#">
+                            <span>기원전 5세기 인간의 상상력 수준</span>
+                            <span class="sub">이종격투기</span>
+                        </a>
+                    </li>
+                    <li class="animate__fadeInUp">
+                        <a href="#">
+                            <span>BC 11세기 고대 문명 대멸망기의 미스테리</span>
+                            <span class="sub">* 여성시대 * 차분한 20대들의 알흠다운 공간</span>
+                        </a>
+                    </li class="animate__fadeInUp">
+                    <li>
+                        <a href="#">
+                            <span>고대 문명들의 최초 통치자들은 누구였나? </span>
+                            <span class="sub">대전고43회모임</span>
+                        </a>
+                    </li>
+                </ul>
+                
+        </div>
+        <div class="row flex-direction-column slide-row">
+               
+            <h2><span>이야기 둘</span>당신의 시간을 훔쳐가겠습니다-월급루팡</h2>
+            <ul class="slider-list">
+                <li class="active animate__fadeInUp">
+                    <a href="#">
+                        <span>공포게임 추천</span>
+                        <span class="sub">열린괴담회</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>국정원 퀴즈 풀고 국정원 들어가기~~~~~</span>
+                        <span class="sub">삼각형 추리</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>[바다거북스프] 문제모음.zip</span>
+                        <span class="sub">나폴리탄..좋아하세요?</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>리얼월드 (크라임씬 가보자고~)</span>
+                        <span class="sub">삼각형 추리</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="row flex-direction-column slide-row">
+                
+            <h2><span>이야기 셋</span>뭐지 이 치명적인 귀여움은</h2>
+            <ul class="slider-list">
+                <li class="active animate__fadeInUp">
+                    <a href="#">
+                        <span>죽을 힘을 다해 도망가는 시츄</span>
+                        <span class="sub">* 여성시대 * 차분한 20대들의 알흠다운 공간</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>대형견한테 까부는 소형견 </span>
+                        <span class="sub">이종격투기</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>주인 발견하자마자 바로 함박웃음 짓는 말티즈</span>
+                        <span class="sub">엽기 혹은 진실 (세상 모든 즐거움이 모이는 곳)</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>헬스장에 따라온 새끼 닥스훈트</span>
+                        <span class="sub">한류열풍 사랑</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="row flex-direction-column slide-row">
+                    
+            <h2><span>이야기 넷</span>알잘딱깔센! 이런 센스 어디서 배우나요?</h2>
+            <ul class="slider-list">
+                <li class="active animate__fadeInUp">
+                    <a href="#">
+                        <span>흉기난동, 살인예고 지도 등장</span>
+                        <span class="sub">뉴스를 읽다</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>내가 조현아면 이날의 감동을 못 잊고 가는 곳마다 송가인 영업하면서 다님</span>
+                        <span class="sub">유머일번지</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>우와 박경림 영화 시사회 착장</span>
+                        <span class="sub">혹시 영화 좋아하세요?</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>인테리어 & 가구에 감각있는 남자연예인 4명 집</span>
+                        <span class="sub">연예거중기</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="row flex-direction-column slide-row">
+                    
+            <h2><span>이야기 다섯</span>대학교 캠퍼스에서 생긴 일</h2>
+            <ul class="slider-list">
+                <li class="active animate__fadeInUp">
+                    <a href="#">
+                        <span>어느 대학교 교수님의 종강사 </span>
+                        <span class="sub">소울드레서 (SoulDresser)</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span> 한국해양대 화장실 금지사항.jpg</span>
+                        <span class="sub">도탁스 (DOTAX)</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span>포항공대를 지잡대라고 생각하는 학생들</span>
+                        <span class="sub"> 옆집 언ㄴ1</span>
+                    </a>
+                </li>
+                <li class="animate__fadeInUp">
+                    <a href="#">
+                        <span> 국내 뷰 원탑이라는 대학교.gif</span>
+                        <span class="sub">쭉빵카페</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <!-- loop -->
+    </div>
+    <a href="#" class="slide-btn slide-left"><i class="fa-solid fa-chevron-left"></i></a>
+    <a href="#" class="slide-btn slide-right"><i class="fa-solid fa-chevron-right"></i></a>
+    </section>
+
+    <section class="best-cafe" id="main02">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-link">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/th01.jpg" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>텐인텐[10년 10억 만들기]</h3>
+                                <p>부자되는 방법뿐만이 아닌, 삶에서 진정어쩌고</p>
+                                <div class="tag">
+                                    <span>추천카페</span>
+                                    <span>재테크</span>
+                                    <span>경매</span>
+                                    <span>펀드</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-link">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/th02.png" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>5670 아름다운 동행</h3>
+                                <p>신중년(50대,60대,70대)의 놀이 공간</p>
+                                <div class="tag">
+                                    <span>추천카페</span>
+                                    <span>5670아름다운 동행</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-link">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/th03.jpg" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>신장병 환우들을 위한 모임</h3>
+                                <p>신장병에 대한 정보 공유!! 꿈과 희망을 어쩌고</p>
+                                <div class="tag">
+                                    <span>추천카페</span>
+                                    <span>신환모</span>
+                                    <span>신장병</span>
+                                    <span>복막투석</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-link">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/th04.jpg" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>너에게 편지를</h3>
+                                <p>사랑시. 좋은글과 각종 정보가 가득한 따어쩌고</p>
+                                <div class="tag">
+                                    <span>추천카페</span>
+                                    <span>영화</span>
+                                    <span>친목</span>
+                                    <span>유머</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-link">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/book.jpg" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>북소년국영수전용카페</h3>
+                                <p>임용정보와 일상샐활 등 많은 정보를 공유</p>
+                                <div class="tag">
+                                    <span>추천카페</span>
+                                    <span>북소년임용익명게시판</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 my-15">
+                    <a href="#" target="_blank" class="best-cafe-add">
+                        <div class="best-cafe-box">
+                            <div class="thumb-img">
+                                <img src="images/th06.png" alt="텐인텐">
+                            </div>
+                            <div class="best-cafe-info">
+                                <h3>카페 만들기</h3>
+                                <p>지금 카페를 만들어 보세요!</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <section class="best-table container" id="main03">
+        
+        
+            <h2>지금, 인기있는 테이블</h2>
+       
+    
+            <ul class="row list-table">
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                비혼 여성만을 위한 공간
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li class="question">
+                    <a href="#">
+                        <p class="table-text">
+                            테이블이 뭔지 궁금해?
+                        </p>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                               다이소 추천템이블
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                               잘 먹는 먹보들
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                전국 강쥐냥이 자랑 대회
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                만두 맛집
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                               연예거중기
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                mbti is science
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                오늘의 예능
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="d-flex align-items-center">
+                            <div class="thumb-img">
+                                    <img src="images/th01.jpg" alt="table01">
+                            </div>
+                            <p class="table-text">
+                                추억팔이 찐 공감
+                            </p>
+                        </div>
+                    </a>
+                   
+                </li>
+                </ul>
+    </section>
+
+    <section class="pop-cafe container" id="main04">
+        <div class="row ">
+            <div class="col-md-8 pe30">
+                <h2>카페 인기글</h2>
+                <div class="ndate">2023.08.21.<span>17:00</span></div>
+                <ul class="pop-list">
+                    <!-- 반복 -->
+                    <!-- <li>
+                        <a href="#">
+                        <div class="d-flex align-items-center">                                                        
+                            <div class="img-thumb">
+                                <img src="images/pop01.jpg" alt="pop01">
+                            </div>
+                            <p class="pop-num">1</p>
+                            <p class="pop-text">
+                                안재홍 인스타에 댓글 단 김의성
+                            </p>
+                            <p class="pop-cafe-list"> * 여성시대 * 차분한 20대들의 아름다운 봄날</p>
+                            <span class="pop-comment">43</span>
+                        </div>     
+                        </a>
+                   </li> -->
+                </ul>
+
+
+                <div class="paging">
+                    <a href="#" class="prev"><i class="fa-solid fa-angle-left"></i></a>
+                    <a href="#" class="active">1</a>
+                    <span>/</span>
+                    <a href="#">10</a>
+                    <a href="#" class="last"><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="pop-cafe2 col-md-4">
+                <h2 class="notice-h2">공지</h2>
+
+                <ul class="notice">
+                    <li><a href="#"><span>[안내]</span>다음카페 앱 v5.0 테이블 OPEN</a></li>
+                    <li><a href="#"><span>[안내]</span>다음카페 운영 지원프로그램 신규 오픈</a></li>
+                    <li><a href="#"><span>[안내]</span>우리 카페 홍보 신청 방법(New)을 안내해 드려요!</a></li>
+                    <li><a href="#"><span>[안내]</span>우리카페 공식 팬카페 신청하기</a></li>
+                </ul>
+                <h2 class="notice-h2">카페 지원 안내</h2>
+                <div class="evbox">
+                    <p>니니즈와 함께하는<br>서포터즈 카페<br>구경하실래요?</p>
+                    <div class="char">
+                        <div class="lefteyes"></div>
+                        <div class="righteyes"></div>
+                        <div class="mouse">
+                            <div class="mouse-1"></div>
+                            <div class="mouse-2"></div>
+
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+
+                <div class="evbox2">
+                    <p>새로워진<br>카페 홍보 지원 신청<br>방법 알아보기</p>
+                    <div class="rabbit-char">
+                        <div class="ear-1"></div>
+                        <div class="ear-2"></div>
+
+                        <div class="rabbit-lefteyes"></div>
+                        <div class="rabbit-righteyes"></div>
+                        
+                            <div class="rabbit-mouse-1"></div>
+                            <div class="rabbit-mouse-2"></div>
+   
+                    </div>   
+                </div>
+            </div>         
+        </div>    
+    </section>
+
+    <section class="f-cafe" id="main05">
+        <div class="container">
+            <h2><i class="fa-solid fa-ranking-star"></i>팬카페</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="card">
+                        <div class="count">1</div>
+                        <div class="card-img">
+                            <img src="images/fancafe01.jpg" alt="#">
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="round-img">
+                                <img src="images/fancafe01-1.jpg" alt="#">
+                            </div>
+                            <div class="card-txt">
+                                <h3>임영웅</h3>
+                                <div class="level">
+                                    <span>카페1등</span>
+                                    <span>응원1등</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#" class="card">
+                        <div class="count">2</div>
+                        <div class="card-img">
+                            <img src="images/fancafe02.jpg" alt="#">
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="round-img">
+                                <img src="images/fancafe02-1.jpg" alt="#">
+                            </div>
+                            <div class="card-txt">
+                                <h3>임영웅</h3>
+                                <div class="level">
+                                    <span>카페1등</span>
+                                    <span>응원1등</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#" class="card">
+                        <div class="count">3</div>
+                        <div class="card-img">
+                            <img src="images/fancafe03.jpg" alt="#">
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="round-img">
+                                <img src="images/fancafe03-1.jpg" alt="#">
+                            </div>
+                            <div class="card-txt">
+                                <h3>정동원</h3>
+                                <div class="level">
+                                    <span>카페1등</span>
+                                    <span>응원1등</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category container" id="main06">
+        <h2>카테고리 <span>별 랭킹 보기</span></h2>
+        <ul>
+            <li><a href="#"><strong>생활 · 경제</strong></a>
+                <a href="#">생활 · 건강</a>
+                <a href="#">경제 · 금융</a>
+                <a href="#">정치 · 사회</a>
+            </li>
+            <li><a href="#"><strong>팬카페</strong></a></li>
+            <li><strong>친목 · 모임</strong>
+                <a href="#">친목</a>
+                <a href="#">여성</a>
+            </li>
+            <li><a href="#"><strong>게임 · 만화</strong></a>
+                <a href="#">만화 · 애니메이션</a>
+                <a href="#">게임</a>
+            </li>
+            <li><a href="#"><strong>취미 · 레저</strong></a>
+                <a href="#">취미</a>
+                <a href="#">스포츠 · 레저</a>
+            </li>
+            <li><a href="#"><strong>연예 · 예술</strong></a>
+                <a href="#">영화</a>
+                <a href="#">음악</a>
+                <a href="#">방송 · 연예</a>  
+                <a href="#">문화 · 예술</a> 
+        </li>
+        <li>
+            <a href="#"><strong>지역 · 동문</strong></a>
+           <a href="#">동창 · 동문</a>
+           <a href="#">지역 · 고향</a>
+           <a href="#">e-마을</a>
+           <a href="#">군대</a>
+           <a href="#">종교</a>
+        </li>
+        <li><a href="#"><strong>학문 · 교육</strong></a>
+            <a href="#">교육 · 외국어</a>
+            <a href="#">컴퓨터 · 인터넷</a>
+            <a href="#">과학 · 인문</a>
+            <a href="#">대학 · 대학원</a>
+            <a href="#">초중고교</a>
+        </li>
+        
+        </ul>
+    </section>
+
+    <footer class="container">
+        <h2>cafe</h2>
+        <div>
+            <a href="#">서비스 약관/정책</a>
+            <a href="#">권리침해신고</a>
+            <a href="#">이용약관</a>
+            <a href="#">상거래 피해구제신청</a>
+            <a href="#">카페운영정책</a>
+            <a href="#">청소년보호정책</a>
+            <a href="#"><strong>개인정보처리방침</strong></a>
+            <a href="#">고객센터</a>
+            <a href="#">문의하기</a>
+            <p>&copy Kakao Corp.</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
